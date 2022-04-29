@@ -1,0 +1,130 @@
+header {
+    margin-bottom: 91px;
+}
+
+.header-content {
+    padding-top: 29px;
+    height: 92px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 19px;
+}
+
+.header-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 215px;
+    margin-right: 45px;
+    height: 80px;
+    margin-top: 31px;
+    border-left: 1px solid rgba(51, 26, 47, 0.5)
+}
+
+.header-text__span {
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(51, 26, 47, 0.9);
+    padding-left: 25px;
+}
+
+.header-list,  .header-entrance{
+    margin-top: 31px;
+}
+
+.header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header-list__item a,
+.header-list__item button {
+    font-size: 24px;
+    color: #331A2F;
+}
+
+.header-list__item {
+    width: 144px;
+}
+
+.header-btn {
+    border: unset;
+    background: unset;
+    position: relative;
+}
+
+.header-btn::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: unset;
+    border: 7px solid transparent;
+    border-top: 7px solid rgba(51, 26, 47, 0.9);
+    right: -24px;
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+}
+
+.header-list__item:nth-child(1) {
+    margin-right: 50px;
+}
+
+.header-list__item:nth-child(2) {
+    margin-right: 181px;
+}
+
+.header-phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.phone-icon {
+    margin-right: 14px;
+}
+
+.header-entrance {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 45px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #CF51CE;
+    margin-left: auto;
+    padding: 4px 32px;
+    border-radius: 12px;
+}
+
+.header-entrance__btn {
+    font-weight: 500;
+    color: #fff;
+    font-size: 23px;
+    background-color: unset;
+    border: unset;
+}
+
+.entrance-icon {
+    height: 65%;
+    margin-right: 14px;
+}
